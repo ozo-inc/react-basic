@@ -7,7 +7,8 @@ import './App.css';
 import AppContext from './contexts/AppContext';
 // import B from './components/B';
 // import BasicReducer from './components/BasicReducer'
-import CompB from './components/CompB'
+// import CompB from './components/CompB'
+import Memo from './components/Memo'
 
 import {useReducer} from 'react'
 const initialState = 0
@@ -37,8 +38,9 @@ function App() {
           {/*<ApiFetch />*/}
           {/*<B />*/}
           {/*<BasicReducer />*/}
-          <p>Count {count}</p>
-          <CompB />
+          {/*<p>Count {count}</p>*/}
+          {/*<CompB />*/}
+          <Memo />
         </header>
       </div>
     </AppContext.Provider>
